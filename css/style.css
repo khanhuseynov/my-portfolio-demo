@@ -5,19 +5,22 @@
 body{
     background-color: #F9F9FF;
 }
-
+.nav_btn:focus{
+  
+  box-shadow: none !important;
+}
 .name ,  .l_name{
     font-size: 40px;
     font-weight: 700;
 }
 .l_name{
-    color: #ffff00;
+    color: #ebd406;
 }
 .nav_ul li a{
     font-size: 21px;
 }
 .nav_ul li a:hover{
-    color:#ffff00 !important ;
+    color:#ebd406 !important ;
     
 }
 .nav_ul li a::after {
@@ -25,7 +28,7 @@ body{
     display: block;
     height: 2px;
     width: 0;
-    background-color: #ffff00;
+    background-color: #ebd406;
     transition: width 0.3s ease;
   }
   
@@ -36,7 +39,11 @@ body{
     border-radius: 51% 49% 60% 40% / 45% 22% 78% 55% ;
     height: 400px;
     width: 400px;
-    background-color:#eb7506 ;
+    background-color:#ebd406 ;
+    background-image: url("../img/image_clipdrop-background-removal.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
   }
   .head_name{
     font-weight: 600;
@@ -107,6 +114,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.3s ease-in-out;
 }
 .card2{
   display: flex;
@@ -144,7 +152,12 @@ body{
 .card1:hover {
   transform: translateY(-15px);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+  
+}
+.res_text{
+  max-width: 624px;
+  min-height: 126px;
+  
 }
 .box{
   height: 300px;
@@ -258,6 +271,7 @@ body{
         flex-direction: column;
         align-items: center;
     }
+   
     .head_name{
         text-align: center;
     }
