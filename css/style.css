@@ -37,10 +37,10 @@ body{
     width: 100%;
   }
   .img_div{
-    width: 100% !important;
+    /* width: 90% !important; */
     border-radius: 51% 49% 60% 40% / 45% 22% 78% 55% ;
     height: 400px;
-    width: 400px;
+    width: 400px !important;
     background-color:#ebd406 ;
     background-image: url("../img/image_clipdrop-background-removal.png");
     background-repeat: no-repeat;
