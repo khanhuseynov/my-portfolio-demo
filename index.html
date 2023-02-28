@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dark.css">
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery-3.6.3.min.js"></script>
     <title>Document</title>
 </head>
 
-<body>
+<body class="dark">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark main_nav" id="home1">
         <div class="container p-1">
@@ -40,6 +42,7 @@
                     <li class="nav-item mx-3">
                         <a class="nav-link text-white" href="#">Contact</a>
                     </li>
+                    
 
                 </ul>
             </div>
@@ -52,10 +55,10 @@
         <div class="container ">
             <div class="row head_row ">
                 <div class="col-md-6 col-sm-12 my-auto media">
-                    <h2>THIS IS ME</h2>
+                    <h2 class="tim">THIS IS ME</h2>
                     <h1 class="head_name">KHAN HUSEYNOV</h1>
                     <span class="im">I'm a</span> <span id="display" class="who mx-3"></span> <br>
-                    <button class=" shake-button btn btn-danger cv my-4 p-2 px-5"> My CV</button>
+                    <button class="   cv my-4 p-2 px-5"> My CV</button>
                 </div>
                 <div class="  col-md-6  col-sm-12 pt-5">
                     <div class="  img_div mx-auto">
@@ -80,31 +83,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 about_img">
-                    <img class="mt-5" width="70%" src="img/a.jpg" alt="">
+                    <img class="mt-5" width="70%"
+                        src="img/DALL·E 2023-02-15 00.06.20 - developer coding in space in a photorealistic style.png"
+                        alt="">
                 </div>
                 <div class="col-md-6">
-                    <h1>I'm <span class="who">frontend Developer</span></h1>
-                    <h4 class="text-muted tex">Hey, I'm Khan Huseynov, a frontend web developer with six months of
-                        experience working with HTML, CSS, and JavaScript, currently doing a BS in Computer Science.
+                    <h1 class="im">I'm <span class="who">frontend Developer</span></h1>
+                    <h4 class="text-muted tex">Hey, I'm Khan Huseynov, a frontend web developer with three months of
+                        experience working with HTML, CSS, and JavaScript
                     </h4>
-                    <h5 class="my-3">HTML</h5>
+                    <h5 class="my-3 im2">HTML</h5>
                     <div class="progress">
                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
-                    <h5 class="my-3">CSS</h5>
+                    <h5 class="my-3 im2">CSS</h5>
                     <div class="progress">
                         <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
-                    <h5 class="my-3">JavaScript</h5>
+                    <h5 class="my-3 im2">JavaScript</h5>
                     <div class="progress">
-                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                        <div class="progress-bar w-50" role="progressbar" aria-valuenow="75" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
-                    <h5 class="my-3">React</h5>
+                    <h5 class="my-3 im2">React</h5>
                     <div class="progress">
-                        <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                        <div class="progress-bar w-25" role="progressbar" aria-valuenow="75" aria-valuemin="0"
                             aria-valuemax="100"></div>
                     </div>
 
@@ -130,7 +135,7 @@
                     <div class="card  shadow card1" style="width: 22rem;">
                         <i class="fa fa-code fa-5x " aria-hidden="true"></i>
                         <div class="card-body card2">
-                            <h5 class="card-title">Fronted Web Developer</h5>
+                            <h5 class="card-title t1">Fronted Web Developer</h5>
                             <p class="card-text card_text">As a front-end web developer, I will create a responsive,
                                 user-friendly, and SEO-optimized website for your business.</p>
 
@@ -141,7 +146,7 @@
                     <div class="card shadow card1" style="width: 22rem;">
                         <i class="fa fa-5x fa-refresh " aria-hidden="true"></i>
                         <div class="card-body card2">
-                            <h5 class=" card-title">Figma & PSD to Web</h5>
+                            <h5 class=" card-title t1">Figma & PSD to Web</h5>
                             <p class="card-text card_text">I will convert your Figma & PSD design into a pixel-perfect
                                 HTML/CSS Website that is compatible with all modern browsers.</p>
 
@@ -152,7 +157,7 @@
                     <div class="card shadow card1" style="width: 22rem;">
                         <i class="fa fa-bug fa-5x" aria-hidden="true"></i>
                         <div class="card-body card2">
-                            <h5 class="card-title">Bug fixing</h5>
+                            <h5 class="card-title t1">Bug fixing</h5>
                             <p class="card-text card_text">I will fix any bug related to HTML, CSS, and JavaScript and
                                 issue related to Responsiveness, syntax, and layout Design..</p>
 
@@ -225,17 +230,18 @@
     <div class="footer container-fluid hiddenDiv">
         <div class="container footer_flex ">
             <div class="info">
-                <p class="text-muted res_text"> Are you looking for a Frontend Web Developer to build a  <span
+                <p class="text-muted res_text"> Are you looking for a Frontend Web Developer to build a <span
                         class="info_span">Responsive and
-                        User-Friendly </span> website from scratch or  looking for someone to redesign & develop
+                        User-Friendly </span> website from scratch or looking for someone to redesign & develop
                     your
-                    existing  website, then you are in the right place!</p>
+                    existing website, then you are in the right place!</p>
             </div>
             <div class="info_me">
 
                 <div class="info_box">
                     <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
-                    <p class="my-3  text-muted mx-3">khan.huseynov@gmail.com</p>
+                    <p class="my-3  text-muted mx-3"><a
+                            href="mailto:khan.huseynov@gmail.com">khan.huseynov@gmail.com</a></p>
                 </div>
                 <div class="info_box">
                     <i class="fa fa-3x fa-map-marker mx-2" aria-hidden="true"></i>
@@ -249,11 +255,14 @@
     <div class="container-fluid footer_end bg-dark py-2  ">
         <div class="container">
             <p class="text-white text-center mt-2 end_text">Created By <span
-                    style="color:#e16d00 ;  font-weight: 600;">KHAN HUSEYNOV</span> | 2023 All rights reserved.</p>
+                    style="color:#e16d00 ;  font-weight: 600;">KHAN HUSEYNOV &copy;</span> | 2023 All rights reserved.
+            </p>
             <div class="text-center">
                 <a href="#"><i class="fa fa-2x  fa-linkedin-square" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-2x  mx-2 fa-github" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-2x   fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://github.com/khanhuseynovv" target="_blank"><i class="fa fa-2x  mx-2 fa-github"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/xanoglan.huseyinov"><i class="fa fa-2x   fa-facebook-square"
+                        aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -264,6 +273,6 @@
 
 
 </body>
-<script src="js/main.js"></script>
+<script async src="js/main.js"></script>
 
 </html>
